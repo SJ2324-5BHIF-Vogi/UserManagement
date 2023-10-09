@@ -17,8 +17,8 @@ namespace Spg.VogiDomain
         public String Biographie { get; set; } = string.Empty;
         public String Address { get; set; } = string.Empty;
         public String eMail { get; set; } = string.Empty;
-        //private readonly List<UserProfile> _follower = new();
-        //private readonly List<UserProfile> _following = new();
+        private IReadOnlyList<UserProfile> _follower;
+        private IReadOnlyList<UserProfile> _following;
 
 
         //Constructor
@@ -38,11 +38,6 @@ namespace Spg.VogiDomain
             Address = address;
             eMail = email;
         }
-
-        public List<UserProfile> Follower;
-        public List<UserProfile> Following;
-
-
 
     }
 }
