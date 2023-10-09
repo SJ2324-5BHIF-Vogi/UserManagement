@@ -24,6 +24,7 @@ namespace Spg.VogiDomain
         public virtual IReadOnlyList<UserProfile> Following => _following;
         
 
+
         //Constructor
         public UserProfile(string fname, string lname, string bio, string  address, string email, byte[] profilePicture)
         {
