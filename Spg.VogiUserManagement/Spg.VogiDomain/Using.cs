@@ -1,0 +1,1 @@
+﻿global using Spg.VogiDomain.Model;
