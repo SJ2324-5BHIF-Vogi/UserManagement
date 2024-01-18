@@ -9,6 +9,8 @@ namespace Spg.VogiDomain.Model
     {
         [BsonId]
         [BsonRepresentation(BsonType.ObjectId)]
+
+        
         public Guid Guid { get; private set; } = Guid.NewGuid();
         public int id { get; set; }
         public string Username { get; set; } = string.Empty;

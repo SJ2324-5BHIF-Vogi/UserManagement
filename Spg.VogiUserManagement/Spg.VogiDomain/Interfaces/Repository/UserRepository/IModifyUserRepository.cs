@@ -6,4 +6,6 @@ public interface IModifyUserRepository
 {
     void Create(User entity);
     void Delete(int id);
+    void UpdateUsername(User entity);
+    void UpdatePassword(User entity);
 }

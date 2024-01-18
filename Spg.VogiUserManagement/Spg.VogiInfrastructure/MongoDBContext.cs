@@ -25,6 +25,7 @@ namespace Spg.VogiInfrastructure
         }
 
         public IMongoCollection<User> Users => _database.GetCollection<User>("users");
+        public IMongoCollection<UserProfile> UserProfiles => _database.GetCollection<UserProfile>("userProfiles");
     }
 
     
