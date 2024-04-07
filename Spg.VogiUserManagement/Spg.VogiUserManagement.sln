@@ -9,17 +9,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Spg.VogiApplication", "Spg.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Spg.VogiDomain", "Spg.VogiDomain\Spg.VogiDomain.csproj", "{6AE6E7CD-ED2A-4EEE-82BB-48B4D872670B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spg.VogiInfrastructure", "Spg.VogiInfrastructure\Spg.VogiInfrastructure.csproj", "{0169D6DB-36BF-4A7C-8DC2-07D35CD951EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Spg.VogiInfrastructure", "Spg.VogiInfrastructure\Spg.VogiInfrastructure.csproj", "{0169D6DB-36BF-4A7C-8DC2-07D35CD951EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spg.VogiRepository", "Spg.VogiRepository\Spg.VogiRepository.csproj", "{D099A674-37A1-4793-8078-CFD5CAAF733B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Spg.VogiRepository", "Spg.VogiRepository\Spg.VogiRepository.csproj", "{D099A674-37A1-4793-8078-CFD5CAAF733B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spg.VogiApplicationTest", "Spg.VogiApplicationTest\Spg.VogiApplicationTest.csproj", "{19FD2189-ED79-464B-860A-1A8E6711AF10}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Spg.VogiApplicationTest", "Spg.VogiApplicationTest\Spg.VogiApplicationTest.csproj", "{19FD2189-ED79-464B-860A-1A8E6711AF10}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spg.VogiDomainTest", "Spg.VogiDomainTest\Spg.VogiDomainTest.csproj", "{BD4487B4-E1D5-416D-A020-7A55831CD56E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Spg.VogiDomainTest", "Spg.VogiDomainTest\Spg.VogiDomainTest.csproj", "{BD4487B4-E1D5-416D-A020-7A55831CD56E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spg.VogiInfrastructureTest", "Spg.VogiInfrastructureTest\Spg.VogiInfrastructureTest.csproj", "{F4227C80-6D7E-4827-8C47-8B206CBED4D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Spg.VogiInfrastructureTest", "Spg.VogiInfrastructureTest\Spg.VogiInfrastructureTest.csproj", "{F4227C80-6D7E-4827-8C47-8B206CBED4D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spg.VogiRepositoryTest", "Spg.VogiRepositoryTest\Spg.VogiRepositoryTest.csproj", "{30988A06-3196-4675-81D8-F591F51D4AF0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Spg.VogiRepositoryTest", "Spg.VogiRepositoryTest\Spg.VogiRepositoryTest.csproj", "{30988A06-3196-4675-81D8-F591F51D4AF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spg.CircuitBreaker", "Spg.CircuitBreaker\Spg.CircuitBreaker.csproj", "{E0A6C495-0E45-47DF-B8A1-491C91074797}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{30988A06-3196-4675-81D8-F591F51D4AF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{30988A06-3196-4675-81D8-F591F51D4AF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{30988A06-3196-4675-81D8-F591F51D4AF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0A6C495-0E45-47DF-B8A1-491C91074797}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0A6C495-0E45-47DF-B8A1-491C91074797}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0A6C495-0E45-47DF-B8A1-491C91074797}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0A6C495-0E45-47DF-B8A1-491C91074797}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
